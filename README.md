@@ -4,7 +4,7 @@ Sistema completo de gestión para taller automotriz desarrollado con React + Vit
 
 ## 🚀 Demo en Vivo
 
-[Ver proyecto desplegado](https://tu-url-de-vercel.vercel.app)
+[Ver proyecto desplegado](https://proyecto-final-bahco-autoservice.vercel.app)
 
 ## 📋 Características
 
