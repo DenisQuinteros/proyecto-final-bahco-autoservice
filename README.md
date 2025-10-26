@@ -1,16 +1,111 @@
-# React + Vite
+# 🔧 BAHCO AutoService - Sistema de Gestión de Taller Mecánico
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Sistema completo de gestión para taller automotriz desarrollado con React + Vite.
 
-Currently, two official plugins are available:
+## 🚀 Demo en Vivo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Ver proyecto desplegado](https://tu-url-de-vercel.vercel.app)
 
-## React Compiler
+## 📋 Características
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### ✅ Funcionalidades Principales
 
-## Expanding the ESLint configuration
+- Sistema de login con autenticación
+- Dashboard con estadísticas en tiempo real
+- CRUD completo de vehículos
+- CRUD completo de servicios/reparaciones
+- CRUD completo de mecánicos
+- Búsqueda y filtros avanzados
+- Modo oscuro/claro
+- Diseño responsive
+- Persistencia de datos con localStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📊 Módulos del Sistema
+
+#### 1. Dashboard
+
+- Total de vehículos registrados
+- Total de mecánicos activos
+- Servicios pendientes, en proceso y completados
+- Cálculo de ingresos totales
+- Estadísticas visuales
+
+#### 2. Gestión de Vehículos
+
+- Registrar vehículos con placa, marca, modelo, año
+- Datos del cliente (nombre y teléfono)
+- Búsqueda por placa, cliente o marca
+- Editar y eliminar vehículos
+
+#### 3. Gestión de Servicios
+
+- Crear servicios asociados a vehículos
+- Tipos de servicio predefinidos
+- Estados: Pendiente, En Proceso, Completado
+- Control de costos y fechas
+- Filtros por estado
+- Búsqueda por vehículo o tipo de servicio
+
+#### 4. Gestión de Mecánicos
+
+- Registro de personal con especialidades
+- Control de turnos
+- Datos de contacto
+- Especialidades: Motor, Transmisión, Electricidad, etc.
+
+## 🛠️ Tecnologías Utilizadas
+
+- **Frontend:** React 18
+- **Build Tool:** Vite
+- **Estilos:** CSS3 moderno
+- **Iconos:** Lucide React
+- **Persistencia:** LocalStorage
+- **Despliegue:** Vercel
+- **Control de versiones:** Git & GitHub
+
+## 📦 Instalación Local
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/DenisQuinteros/proyecto-final-bahco-autoservice.git
+
+# Entrar al directorio
+cd proyecto-final-bahco-autoservice
+
+# Instalar dependencias
+npm install
+
+# Ejecutar en modo desarrollo
+npm run dev
+
+# Construir para producción
+npm run build
+```
+
+## 🔐 Credenciales de Acceso
+
+**Usuario:** admin  
+**Contraseña:** 123456
+
+## 📱 Responsive Design
+
+El sistema está optimizado para:
+
+- 📱 Dispositivos móviles
+- 💻 Tablets
+- 🖥️ Escritorio
+
+## 👨‍💻 Autor
+
+**Denis Quinteros**  
+Ingeniería de Sistemas - UPDS  
+Materia: Diseño Web II  
+Docente: Rojas Condori Vladimir Wilmar
+
+## 📄 Licencia
+
+Este proyecto fue desarrollado con fines académicos.
+
+---
+
+© 2025 BAHCO AutoService - Todos los derechos reservados
